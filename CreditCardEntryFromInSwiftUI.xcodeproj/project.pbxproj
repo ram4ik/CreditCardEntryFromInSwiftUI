@@ -11,6 +11,10 @@
 		1DC327D72B4A90A7001DC952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC327D62B4A90A7001DC952 /* ContentView.swift */; };
 		1DC327D92B4A90AB001DC952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC327D82B4A90AB001DC952 /* Assets.xcassets */; };
 		1DC327DC2B4A90AB001DC952 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC327DB2B4A90AB001DC952 /* Preview Assets.xcassets */; };
+		1DC327E42B4AA02E001DC952 /* CardFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC327E32B4AA02E001DC952 /* CardFrontView.swift */; };
+		1DC327E62B4AA060001DC952 /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC327E52B4AA060001DC952 /* CardBackView.swift */; };
+		1DC327E82B4AA10A001DC952 /* CheckoutFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC327E72B4AA10A001DC952 /* CheckoutFormView.swift */; };
+		1DC327EB2B4AA148001DC952 /* CreditCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC327EA2B4AA148001DC952 /* CreditCardInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1DC327D62B4A90A7001DC952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DC327D82B4A90AB001DC952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DC327DB2B4A90AB001DC952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DC327E32B4AA02E001DC952 /* CardFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontView.swift; sourceTree = "<group>"; };
+		1DC327E52B4AA060001DC952 /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
+		1DC327E72B4AA10A001DC952 /* CheckoutFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFormView.swift; sourceTree = "<group>"; };
+		1DC327EA2B4AA148001DC952 /* CreditCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		1DC327D32B4A90A7001DC952 /* CreditCardEntryFromInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1DC327E92B4AA13C001DC952 /* Model */,
+				1DC327E22B4AA01C001DC952 /* Views */,
 				1DC327D42B4A90A7001DC952 /* CreditCardEntryFromInSwiftUIApp.swift */,
 				1DC327D62B4A90A7001DC952 /* ContentView.swift */,
 				1DC327D82B4A90AB001DC952 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				1DC327DB2B4A90AB001DC952 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DC327E22B4AA01C001DC952 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DC327E32B4AA02E001DC952 /* CardFrontView.swift */,
+				1DC327E52B4AA060001DC952 /* CardBackView.swift */,
+				1DC327E72B4AA10A001DC952 /* CheckoutFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DC327E92B4AA13C001DC952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DC327EA2B4AA148001DC952 /* CreditCardInfo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +167,10 @@
 			files = (
 				1DC327D72B4A90A7001DC952 /* ContentView.swift in Sources */,
 				1DC327D52B4A90A7001DC952 /* CreditCardEntryFromInSwiftUIApp.swift in Sources */,
+				1DC327E82B4AA10A001DC952 /* CheckoutFormView.swift in Sources */,
+				1DC327E42B4AA02E001DC952 /* CardFrontView.swift in Sources */,
+				1DC327EB2B4AA148001DC952 /* CreditCardInfo.swift in Sources */,
+				1DC327E62B4AA060001DC952 /* CardBackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
